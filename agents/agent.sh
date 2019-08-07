@@ -1,8 +1,6 @@
 #!/bin/bash      
 
-#THIS IS A SIMPLE BASH IMPLEMENTATION OF THE HTTP REVERSE SHELL 
-
-#jq is a dependency can be installed with 
+#THIS IS A SIMPLE BASH IMPLEMENTATION OF THE HTTP REVERSE SHELL Agent
 
 
 function getFromServer () {
