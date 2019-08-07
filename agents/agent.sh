@@ -32,6 +32,7 @@ function postToServer () {
 # i will never change value but it gives a way for the while loop to run until the exit condition
 i="0"
 
+#CHANGE THIS IP ADDRESS AND PORT TO MATCH SERVER
 server="127.0.0.1:8080"
 
 
