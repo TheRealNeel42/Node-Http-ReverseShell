@@ -13,3 +13,7 @@ Installing Nodejs and Express should be all you need to get this running.
 ## Usage
 
 Start the server on your machine, then start the agent of your choice on the target machine.  Thats all!
+
+## Agents
+
+So far there are two different agents, a Python agent and a Bash agent. More should be on the way
