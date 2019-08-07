@@ -1,0 +1,14 @@
+{
+  "name": "node_reverse_shell",
+  "version": "1.0.0",
+  "description": "A simple HTTP reverse shell implementation written in Nodejs and Express that works as a REST API, allowing the Agents to be written in various languages",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Neel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
